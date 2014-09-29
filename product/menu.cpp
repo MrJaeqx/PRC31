@@ -1,3 +1,21 @@
+//============================================================================
+// Name        : menu.cpp
+// Author      : Peter Lambooij
+// Version     :
+// Copyright   : copyright Peter Lambooij
+// Description : Example code EMB1-C++ week 1
+//
+//				 Chapter 3 van the study book (Gaddis et al.):
+//				 	 cin, cout, getline, cin.getc(), cin.ignore(), endl
+//
+//				 Chapter 7 of the book :
+//					 Classes with constructor and member functions
+//					 (properties like in C# do not exist in C++,
+//					  and there is always a split-up in header and source file)
+//
+//				 Parameter passing is shown in C# style, as taught in PCSx courses.
+//				 In the next example project another way of passing will be shown: "call-by-reference".
+//============================================================================
 #include "Meetserie.h"
 #include <iostream>
 

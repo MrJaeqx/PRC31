@@ -23,7 +23,7 @@ class MeetserieExtra : public Meetserie
              <MeetserieExtra>
     */
 
-    void voegToeMeetserie( const Meetserie &meets );
+    void voegToeMeetserie( Meetserie &meets );
     /* pre :
        post: Alle meetwaarden van meets zijn toegevoegd aan <MeetserieExtra>
              en het aantal verschillende waardes in <MeetserieExtra is

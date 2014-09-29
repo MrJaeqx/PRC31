@@ -9,8 +9,7 @@ MAIN_SOURCES=product/menu.cpp \
              product/MeetserieExtra.cpp
 
 TEST_SOURCES=test/Test$(PROJECT_NAME).cpp \
-			 $(SHARED_SOURCES) \
-			 test/TestMeetserieExtra.cpp             
+			 $(SHARED_SOURCES)       
 
 TEST_LIBS=-lgtest -lgtest_main -lpthread
 

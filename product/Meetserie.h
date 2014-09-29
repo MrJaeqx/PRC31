@@ -2,7 +2,6 @@
 #define MeetserieH
 
 #include <string>
-
 using namespace std;
 
 const int MaxAantalMeetwaarden = 10; 
@@ -34,8 +33,8 @@ class Meetserie
     bool isVol();
     /* pre : -
        post: Als het aantal meetwaarden van Meetserie is maximaal
-     Dan true
-     Anders false 
+		 Dan true
+		 Anders false 
     */
 
     void voegToe(int meetw);
@@ -62,4 +61,4 @@ class Meetserie
     */
 };
 
-#endif /* MeetserieH */
+#endif
